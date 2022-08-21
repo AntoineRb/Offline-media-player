@@ -1,0 +1,109 @@
+<mxfile host="65bd71144e">
+    <diagram id="Lpa7pW8TLexz-h6u4y9j" name="Page-1">
+        <mxGraphModel dx="2706" dy="1101" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="41" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="-800" y="40" width="760" height="920" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;strokeWidth=2;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+                    <mxGeometry x="-610" y="160" width="20" height="760" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;b&gt;Software&lt;/b&gt;&lt;br&gt;( Client Side )&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#b85450;strokeWidth=2;fillColor=#f8cecc;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="-490" y="160" width="100" height="760" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#ae4132;strokeWidth=2;fillColor=#fad9d5;" vertex="1" parent="3">
+                    <mxGeometry x="45" y="80" width="10" height="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#82b366;strokeWidth=2;fillColor=#d5e8d4;" vertex="1" parent="3">
+                    <mxGeometry x="-115" y="80" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;b&gt;Click on&amp;nbsp;&lt;/b&gt;&lt;br&gt;remove media button" style="html=1;verticalAlign=bottom;endArrow=block;fontColor=#000000;labelBackgroundColor=none;strokeWidth=2;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" edge="1" parent="3">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="-104" y="80" as="sourcePoint"/>
+                        <mxPoint x="45" y="80" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="&lt;b&gt;Get &lt;/b&gt;media path&lt;br&gt;( file path )" style="html=1;verticalAlign=bottom;endArrow=block;fontColor=#000000;labelBackgroundColor=#FFFFFF;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="3">
+                    <mxGeometry y="15" width="80" relative="1" as="geometry">
+                        <mxPoint x="55" y="120" as="sourcePoint"/>
+                        <mxPoint x="55" y="160" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="95" y="120"/>
+                            <mxPoint x="95" y="160"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="&lt;b&gt;Try to Remove&amp;nbsp;&lt;br&gt;&lt;/b&gt;media from files" style="html=1;verticalAlign=bottom;endArrow=block;fontColor=#000000;labelBackgroundColor=#FFFFFF;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="3">
+                    <mxGeometry x="0.1667" y="15" width="80" relative="1" as="geometry">
+                        <mxPoint x="55" y="200" as="sourcePoint"/>
+                        <mxPoint x="55" y="240" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="95" y="200"/>
+                            <mxPoint x="95" y="240"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="&lt;b&gt;Display &lt;/b&gt;success message&lt;br&gt;&quot;&lt;i&gt;Media removed&lt;/i&gt;&quot;" style="html=1;verticalAlign=bottom;endArrow=block;fontColor=#000000;labelBackgroundColor=#FFFFFF;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="3">
+                    <mxGeometry y="44" width="80" relative="1" as="geometry">
+                        <mxPoint x="56" y="560" as="sourcePoint"/>
+                        <mxPoint x="56" y="600" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="96" y="560"/>
+                            <mxPoint x="96" y="600"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="&lt;b&gt;API&lt;/b&gt;&lt;br&gt;( Server Side )" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#9673a6;strokeWidth=2;fillColor=#e1d5e7;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="-330" y="160" width="100" height="760" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;b&gt;Python process&lt;/b&gt;&lt;br&gt;( pytube )" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#10739e;strokeWidth=2;fillColor=#b1ddf0;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="-170" y="160" width="100" height="760" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Remove Media - Sequences Diagram" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;fontSize=25;" vertex="1" parent="1">
+                    <mxGeometry x="-465" y="80" width="80" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Alt&lt;/font&gt;&lt;/b&gt;" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=140;height=30;fillColor=none;strokeColor=#4D4D4D;strokeWidth=2;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="-780" y="440" width="540" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="[ if system cannot &#10;delete file ( media ) ]" style="text;fontColor=#000000;fontSize=15;" vertex="1" parent="32">
+                    <mxGeometry width="100" height="20" relative="1" as="geometry">
+                        <mxPoint x="20" y="40" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="[ Else ]" style="line;strokeWidth=2;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;fontColor=#000000;strokeColor=#4D4D4D;labelBackgroundColor=none;fontSize=15;" vertex="1" parent="32">
+                    <mxGeometry y="125" width="540" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;b&gt;Display &lt;/b&gt;error&lt;br&gt;&quot;&lt;i&gt;Cannot remove this media&lt;/i&gt;&quot;" style="html=1;verticalAlign=bottom;endArrow=block;fontColor=#000000;labelBackgroundColor=#FFFFFF;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="32">
+                    <mxGeometry y="44" width="80" relative="1" as="geometry">
+                        <mxPoint x="346" y="39.999999999999886" as="sourcePoint"/>
+                        <mxPoint x="346" y="79.99999999999989" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="386" y="40"/>
+                            <mxPoint x="386" y="80"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="&lt;b&gt;Remove &lt;/b&gt;&lt;i&gt;&lt;u&gt;media&lt;/u&gt;&lt;/i&gt;&lt;br&gt;from playlist in &lt;br&gt;&lt;b&gt;local data&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;fontColor=#000000;labelBackgroundColor=#FFFFFF;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="32">
+                    <mxGeometry x="0.15" y="24" width="80" relative="1" as="geometry">
+                        <mxPoint x="346" y="160.9999999999999" as="sourcePoint"/>
+                        <mxPoint x="346" y="200.9999999999999" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="386" y="161"/>
+                            <mxPoint x="386" y="201"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="" style="shape=umlDestroy;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="32">
+                    <mxGeometry x="325" y="65" width="30" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
